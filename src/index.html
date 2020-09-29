@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Pigeon Task is a free, easy-to-use tool for creating team schedules. Ideal for production environments and task management!">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/queries.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+        <title>Pigeon Task</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <link rel="manifest" href="favicons/site.webmanifest">
+        <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#fcf6f6">
+        <meta name="msapplication-config" content="favicons/browserconfig.xml">
+        <meta name="theme-color" content="#fcf6f6">
+
+    </head>
+    <body>
+        <header>
+            <div class="header__description">
+                <h1 class="intro"> Simplify managing<br> your team's tasks</h1>
+                <h2 class="description"> Pigeon Task is a simple tool for creating an email <br> tailored to your team's daily schedule &mdash; for free.</h2>
+                <a class="btn get-started" href="#task-section">Get started</a>
+            </div>
+            <div class="header__hero">
+                <img src="img/logo.png" alt="Pigeon Task Logo">
+            </div>
+        </header>
+        <section class="input-form">
+            <form autocomplete="off">
+                <button class="info-button" type="button">
+                    <i class="material-icons md-36">help_outline</i>
+                </button>
+                <input type="text" name="task" id="task" placeholder="Task" class="form__task" required>
+                <input type="text" list="assigned-options" placeholder="Assigned" class="form__assigned" required/>
+                    <datalist id="assigned-options">
+                        <!-- <option>Christie</option>
+                        <option>Seung</option>
+                        <option>Miso</option>
+                        <option>Mino</option> -->  
+                    </datalist>
+                <input type="text" list="tag-options" placeholder="Tag" class="form__tag"/>
+                    <datalist id="tag-options">
+                        <!-- <option>Brewing</option>
+                        <option>Cellar</option>
+                        <option>Packaging</option>
+                        <option>Lab</option> -->
+                    </datalist>
+                <input type="text" name="comment" id="comment" placeholder="Comment" class="form__comment">
+                <button class="add-button" type="button">
+                    <i class="material-icons md-36">add_circle_outline</i>
+                </button>
+            </form>
+        </section>
+        <section class="task-container" id="task-section">
+            <!-- <div class="assignment assignment-Seung">
+                <h3>Seung</h3>
+                <ul class="tasks-Seung">
+                    <li>
+                        <div class="task">
+                            <button class="task__delete">&times;</button>
+                            <p class="task__description">
+                                Brew 44 barrels of Crikey into FV16 and 36
+                            </p>
+                        </div>
+                        <p class="tag">
+                            Brewing
+                        </p>
+                    </li>
+                    <li>
+                        <p class="task">
+                            Daily sanitization
+                        </p>
+                        <p class="tag">
+                            Brewing
+                        </p>
+                    </li>
+                    <li>
+                        <p class="task">
+                            Turn FV13 and hot bsr
+                        </p>
+                        <p class="tag">
+                            Brewing
+                        </p>
+                    </li>
+                </ul>
+            </div> -->
+            <div class="email-input">
+                <form autocomplete="off">
+                    <input type="email" name="email" id="email" placeholder="Your email" class="form__email">
+                </form>
+                <button class="preview-button">Preview</button>
+                <button class="email-button">Send email</button>
+            </div>
+        </section>
+        <div id="preview-modal" class="modal">
+            <!-- Modal content -->
+            <div class="preview-content">
+                <button class="close">&times;</button>
+                <p>Some text in the Modal..</p>
+            </div>
+        </div>
+        <div id="howto-modal" class="modal">
+            <!-- Modal content -->
+            <div class="howto-content">
+                <button class="close">&times;</button>
+                <p>Pigeon Task is a user-friendly interface for creating team tasklists that you can then email to your team.<br><br>1. Fill out the tasks for your team<br>2. Hit preview to see your formatted email<br>3. Enter your email and hit send to receive it for forwarding!<br><br>*Note: Your tasks are saved to your browser for 16 hours since your last edit!</p>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <footer>
+            <p>
+                Thank you for using Pigeon Task!
+            </p>
+            <a href="https://twitter.com/AreWeCodingYet" target="_blank">Twitter</a>
+        </footer>
+    </body>
+</html>
+
