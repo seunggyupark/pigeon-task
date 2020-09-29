@@ -16,3 +16,4 @@
 1. Not as web responsive as I would like.
 2. Conversion to React.
 3. User Auth, linking accounts and tasks, allowing user to log in and see their assigned tasks.
+4. Testing changes in Git
