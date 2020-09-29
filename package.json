@@ -1,0 +1,28 @@
+{
+  "name": "pigeontask",
+  "version": "1.0.0",
+  "description": "pigeontask project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [
+    "pigeon",
+    "task",
+    "manager"
+  ],
+  "author": "Seung Park",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "emailjs-com": "^2.6.3",
+    "validator": "^13.1.1"
+  }
+}

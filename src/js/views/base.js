@@ -1,0 +1,20 @@
+//DOM elements
+export const elements = {
+    inputTask: document.querySelector('.form__task'),
+    inputAssigned: document.querySelector('.form__assigned'),
+    inputTag: document.querySelector('.form__tag'),
+    inputComment: document.querySelector('.form__comment'),
+    addButton: document.querySelector('.add-button'),
+    assignedOption: document.getElementById('assigned-options'),
+    tagOption: document.getElementById('tag-options'),
+    taskContainer: document.querySelector('.task-container'),
+    previewModal: document.getElementById('preview-modal'),
+    previewContent: document.querySelector('.preview-content'),
+    previewButton: document.querySelector('.preview-button'),
+    howtoModal: document.getElementById('howto-modal'),
+    infoButton: document.querySelector('.info-button'),
+    closeButton: document.querySelector('.close'),
+    deleteButton: document.querySelector('.task__delete'),
+    email: document.querySelector('.form__email'),
+    emailButton: document.querySelector('.email-button'),
+};
