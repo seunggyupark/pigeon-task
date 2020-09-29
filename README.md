@@ -4,7 +4,7 @@
 
 **Demo: https://pigeontask.com/**
 
-**Tech: JS, HTML, CSS
+**Tech: JS, HTML, CSS**
 
 # How to use
 1. Fill out task details
