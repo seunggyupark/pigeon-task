@@ -71,7 +71,7 @@ const displayPreview = () => {
 };
 
 async function sendEmail(parameters) {
-    await emailjs.send('service_fsbgdjq', 'template_8dbblkr', parameters);
+    await emailjs.send('INSERT TOKEN HERE', 'INSERT TEMPLATE HERE', parameters);
     alert('Email sent!');
 }
 
