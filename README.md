@@ -2,18 +2,16 @@
 
 **Description: Simple email formatting webapp for task schedules.**
 
-**Demo: https://deco-98dcb.web.app/**
-
-**Tech: React, HTML, CSS, React-Three-Fiber, drei, threeJS, react-spring**
+**Tech: JS, HTML, CSS**
 
 # How to use
-1. Pick a color
-2. Select an object
-3. Randomize your color or use the color picker
+1. Fill out task details
+2. Preview to check formatting
+3. Enter email in form, and send off
 
 
 # Future scope
-1. CannonJS for physics with drag and drop
-2. Different models so I can add and delete items, this is limited by shared material color.
-3. Unit testing
-4. TypeScript conversion
+1. Not as web responsive as I would like.
+2. Conversion to React.
+3. User Auth, linking accounts and tasks, allowing user to log in and see their assigned tasks.
+4. Testing changes in Git
